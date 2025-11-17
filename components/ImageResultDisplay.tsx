@@ -44,9 +44,13 @@ export const ImageResultDisplay: React.FC<ImageResultDisplayProps> = ({
     if (!generatedImage) return;
     const link = document.createElement('a');
     link.href = generatedImage;
+<<<<<<< HEAD
     // Check if the image is SVG or PNG to set the correct extension
     const isSvg = generatedImage.startsWith('data:image/svg+xml');
     link.download = isSvg ? 'salarx-ai-response.svg' : 'salarx-ai-generated.png';
+=======
+    link.download = 'salarx-ai-generated.png';
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

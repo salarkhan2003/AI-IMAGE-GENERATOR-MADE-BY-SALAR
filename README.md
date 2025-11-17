@@ -15,6 +15,12 @@ View your app in AI Studio: https://ai.studio/apps/drive/1cWT2x9YzhllGhcwWSVeqIH
 
 1. Install dependencies:
    `npm install`
+<<<<<<< HEAD
 2. Set the `SAMBA_NOVA_API_KEY` in [.env.local](.env.local) to your SambaNova API key
 3. Run the app:
    `npm run dev`
+=======
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f

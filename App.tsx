@@ -152,15 +152,23 @@ const App: React.FC = () => {
         return { base64Data, mimeType };
       });
 
+<<<<<<< HEAD
       // Call the service (now connected to SambaNova API)
+=======
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
       const resultBase64 = await editImage(
         imageParts, 
         prompt
       );
       
+<<<<<<< HEAD
       // Create a data URL for the result
       // Note: This will be an SVG placeholder with the text response embedded
       const resultDataUrl = `data:image/svg+xml;base64,${resultBase64}`;
+=======
+      // Gemini API for image generation returns PNG format.
+      const resultDataUrl = `data:image/png;base64,${resultBase64}`;
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
       setGeneratedImage(resultDataUrl);
       setShowOriginal(false);
     } catch (err) {

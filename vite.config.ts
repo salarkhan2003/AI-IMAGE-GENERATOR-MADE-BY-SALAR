@@ -11,8 +11,13 @@ export default defineConfig(({ mode }) => {
       },
       plugins: [react()],
       define: {
+<<<<<<< HEAD
         'process.env.API_KEY': JSON.stringify(env.SAMBA_NOVA_API_KEY),
         'process.env.SAMBA_NOVA_API_KEY': JSON.stringify(env.SAMBA_NOVA_API_KEY)
+=======
+        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
       },
       resolve: {
         alias: {
@@ -20,4 +25,8 @@ export default defineConfig(({ mode }) => {
         }
       }
     };
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f

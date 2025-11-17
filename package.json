@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "react": "^19.2.0",
+<<<<<<< HEAD
+=======
+    "@google/genai": "^1.29.1",
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
@@ -18,4 +22,8 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7a769c05113dd62edce7b1ebd15670c2609e382f
