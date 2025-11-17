@@ -1,0 +1,7 @@
+{
+  "name": "SalarX AI",
+  "description": "Edit images with the power of AI. Use simple text prompts to apply filters, remove objects, and transform your photos using Gemini 2.5 Flash Image.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
